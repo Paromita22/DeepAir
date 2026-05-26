@@ -55,7 +55,22 @@ This script will:
 
 - `Docs/`: Project proposal and technical documentation.
 - `Scipts/`: Core scripts for data collection, preprocessing, and model training.
+- `results/`: Contains evaluation metrics and outputs (`results.zip`).
+- `figures/`: Automatically generated visualizations and plots.
 - `scratch/`: Experimental scripts and temporary logs.
+- `DeepAir_Dhaka_Final.keras`: The fully trained ConvLSTM-U-Net model.
+- `pipelineDarkBackground.py`: Script to generate the pipeline and methodology diagrams.
+
+## 📈 Results and Visualizations
+
+The pipeline incorporates a robust ConvLSTM architecture with Attention Gates, achieving an **R-value of 0.9729** and a **MAE of 3.39 µg/m³**.  
+Below are the high-level and detailed views of our methodology:
+
+**1. Project Pipeline**  
+![Pipeline Diagram](pipeline_diagram.png)
+
+**2. Methodology Deep-Dive**  
+![Methodology Diagram](methodology_diagram.png)
 
 ## 📜 References
 
